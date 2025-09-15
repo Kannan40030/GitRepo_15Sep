@@ -106,7 +106,7 @@ void initialise(void);  //cmd
 
 void main (void) 
 	{
-            //initialise();
+            initialise();
             LED_LH = 1;
             LED_RH = 1;
             RELAY_LH = 1;
@@ -132,8 +132,8 @@ void main (void)
                 RELAY_LH = 0;
                 LED_LH = 0;  
 
-                ADCON0 = 0b10001001;      // AN2 Channel Selected (Load Current Check for LED).
-//               ADCON0 = 0b10001101;      // AN3 Channel Selected (Load Current Check for Lamps).                
+                ADCON0 = 0b10001001;        // AN2 Channel Selected (Load Current Check for LED).
+//               ADCON0 = 0b10001101;       // AN3 Channel Selected (Load Current Check for Lamps).                
                 for(a=0;a<=5;a++);
                 GO_nDONE = 1;
                 while(GO_nDONE == 1)
