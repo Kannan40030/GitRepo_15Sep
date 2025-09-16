@@ -106,7 +106,7 @@ void initialise(void);  //cmd
 
 void main (void) 
 	{
-           // initialise();
+            initialise();                   //init
             LED_LH = 1;
             LED_RH = 1;
             RELAY_LH = 1;
