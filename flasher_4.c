@@ -76,7 +76,7 @@ unsigned int Adc_Value;
 unsigned int Delay_Count;
 unsigned int Working_Voltage_H;
 unsigned int Working_Voltage_L;
-unsigned int One_Bulb_Fail_Current;
+unsigned int One_Bulb_Fail_Current;  //
 unsigned int LED_Fail_Current;
 unsigned int SC_Current;
 unsigned int Actual_Current;
